@@ -9,7 +9,6 @@ class ContactLocalStorage {
   constructor() {
     this.storage = new LocalStorage('./contacts');
   }
-
   //#region query
   fetchContacts = () => {
     const dbcontacts = this.storage.getItem(this.key);

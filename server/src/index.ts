@@ -9,7 +9,6 @@ import { IContact } from './models/contact';
 const server = Server;
 const app = server.app;
 
-
 //options for cors midddleware
 const options: cors.CorsOptions = {
     allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token"],

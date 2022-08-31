@@ -10,7 +10,6 @@ class Server {
   constructor() {
     this.app = express.default();
   }
-
   /**
    * Run the server backend
    */
